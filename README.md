@@ -46,4 +46,5 @@ Weighted KNN stabilizes performance across high k values but doesn’t outperfor
 
 # Learning curve  
 
+![Learning Curve](https://github.com/user-attachments/assets/dbb45629-38ee-418e-8da5-76e20930a980)
 
