@@ -48,3 +48,8 @@ Weighted KNN stabilizes performance across high k values but doesn’t outperfor
 
 ![Learning Curve](https://github.com/user-attachments/assets/dbb45629-38ee-418e-8da5-76e20930a980)
 
+# Technologies Used  
+- Python
+- Pandas, NumPy, Matplotlib, Seaborn
+- scikit-learn
+- SciPy (Mahalanobis distance)
