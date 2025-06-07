@@ -21,3 +21,29 @@ The goal of this project is to build a binary classification model that can dist
 **Distance Metric Comparisons:** Euclidean, Manhattan (Minkowski with p=1), Chebyshev, Mahalanobis.  
 
 **Weighted KNN:** Implemented inverse-distance weighted voting.  
+
+# 🔍 Key Results and Insights
+**1) Optimal k Selection (Euclidean Distance):**  
+
+🔥 Best performing k = 4  
+
+**Confusion Matrix & Metrics (k = 4):**  
+
+✅ True Positive Rate (Recall): 0.9857  
+✅ True Negative Rate: 0.8333  
+✅ Precision: 0.9324  
+✅ F1 Score: 0.9583  
+
+**2. Performance Across Distance Metrics (Unweighted KNN) with different values of k**  
+
+Minkowski with log-scaled p provides flexible control and performed best in this dataset with **test error of 0.06** at optimal **k-value = 1**  
+
+**3. Weighted KNN Results**  
+
+Euclidean performed best with **test error of 0.10** at optimal **k-value = 6**  
+
+Weighted KNN stabilizes performance across high k values but doesn’t outperform the best unweighted setup.  
+
+# Learning curve  
+
+
